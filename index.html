@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be Mine? 💖</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="proposal-1" class="proposal-screen">
+            <div id="Sowrov1" class="sticker"></div>
+            <h1>Hey <span id="JSOrganization-placeholder"></span>! 💖</h1>
+            <p>I love you more than anything. Will you be mine forever?</p>
+            <div class="btn">
+                <a href="#" onclick="showProposal('proposal-yes')">💖 Yes</a>
+                <a href="#" onclick="showProposal('proposal-2')">💔 No</a>
+            </div>
+        </div>
+
+        <div id="proposal-2" class="proposal-screen">
+            <div id="Sowrov2" class="sticker"></div>
+            <h1>Are you sure? 🥺</h1>
+            <p>You mean everything to me. Please say yes!</p>
+            <div class="btn">
+                <a href="#" onclick="showProposal('proposal-yes')">🥰 Yes</a>
+                <a href="#" onclick="showProposal('proposal-3')">😢 No</a>
+            </div>
+        </div>
+
+        <div id="proposal-3" class="proposal-screen">
+            <div id="Sowrov3" class="sticker"></div>
+            <h1>My heart is breaking... 💔</h1>
+            <p>I can't imagine my life without you. Please give us a chance!</p>
+            <div class="btn">
+                <a href="#" onclick="showProposal('proposal-yes')">😍 Yes</a>
+                <a href="#" onclick="showProposal('proposal-4')">😭 No</a>
+            </div>
+        </div>
+
+        <div id="proposal-4" class="proposal-screen">
+            <div id="Sowrov4" class="sticker"></div>
+            <h1>Don't leave me... 😭</h1>
+            <p>You're my everything. Please say yes and make me the happiest person!</p>
+            <div class="btn">
+                <a href="#" onclick="showProposal('proposal-yes')">❤️ Yes</a>
+                <a href="#" id="move-random">💔 No</a>
+            </div>
+        </div>
+
+        <div id="proposal-yes" class="proposal-screen">
+            <div id="Sowrov5" class="sticker"></div>
+            <h1>You said YES! 🥰</h1>
+            <p>I love you, <span id="JSOrganization-placeholder-5"></span>. Let's make forever amazing! 💞</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
